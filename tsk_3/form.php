@@ -15,7 +15,7 @@
       <label>
         ФИО:
         <br/>
-        <input name="fio" value="Иванов Иван Иванович">
+        <input name="fio" type="name" value="Иванов Иван Иванович">
       </label>
       <br>
       <label>
@@ -53,10 +53,10 @@
       </label><br>
       <label>
         Ваша биография:<br>
-        <textarea name="bio" cols="90" rows="10">A long time ago, back in the early 1900s...</textarea>
+        <textarea name="bio" cols="90" rows="10">Давным-давно, в далекой-далекой галактике... </textarea>
       </label><br>
       <br>
-      <label><input type="checkbox" class="checkbox" checked="checked" name="check-1">
+      <label><input type="checkbox" class="checkbox" name="check-1">
         с контрактом ознакомлен(а)</label><br>
       <br>
       <input class="button" type="submit" value="Сохранить">
