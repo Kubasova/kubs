@@ -10,7 +10,7 @@
 
 <body>
 
-  <div class="form">
+  <div class="form-container">
     <form action="index.php" method="POST">
       <label>
         ФИО:
