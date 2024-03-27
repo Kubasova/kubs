@@ -1,0 +1,52 @@
+/* Стили для контейнера формы */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Стили для текстовых полей */
+  input[type="name"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #e3df90;
+    border-radius: 4px;
+  }
+  
+  /* Стили для радиокнопок */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Стили для множественного выбора */
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #e3df90;
+    border-radius: 4px;
+  }
+  
+  /* Стили для чекбокса */
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Стили для кнопки */
+  input[type="submit"],
+  button {
+    background-color: #4CAF50;
+    color: rgb(205, 205, 205);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
