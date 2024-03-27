@@ -61,6 +61,7 @@
       <br>
       <input class="button" type="submit" value="Сохранить">
     </form>
+  </div>
 </body>
 
 </html>
