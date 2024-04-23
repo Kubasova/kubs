@@ -5,10 +5,10 @@
   }
   
   /* Стили для текстовых полей */
-  input[type="fio"],
-  input[type="tel"],
-  input[type="email"],
-  input[type="date"],
+  input[name="fio"],
+  input[name="field-tel"],
+  input[name="field-email"],
+  input[name="field-date"],
   textarea {
     width: 100%;
     padding: 8px;
