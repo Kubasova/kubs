@@ -5,7 +5,7 @@
   }
   
   /* Стили для текстовых полей */
-  input[type="name"],
+  input[type="fio"],
   input[type="tel"],
   input[type="email"],
   input[type="date"],
