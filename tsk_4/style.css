@@ -1,4 +1,11 @@
-/* Стили для контейнера формы */
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  background-color: #4f4322df;
+  color: rgb(211, 192, 170);
+}
+
 .form-container {
     max-width: 400px;
     margin: 0 auto;
