@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="form">
+    <div class="form-container">
     <form action="" method="POST">
       <label>
         ФИО:
