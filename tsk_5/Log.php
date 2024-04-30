@@ -9,8 +9,8 @@
 <body>
     <div class="form">
         <form action="" method="post">
-            <input name="login" />
-            <input name="pass" />
+            <input name="login" placeholder="Логин" />
+            <input name="pass" placeholder="Пароль" />
             <input type="hidden" name="csrf_token" value="<?=$val?>">
             <input type="submit" value="Войти" />
         </form>
