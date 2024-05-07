@@ -21,7 +21,7 @@ if (session_start() && !empty($_COOKIE[session_name()])) {
     // Если есть логин в сессии, то пользователь уже авторизован.
     // TODO: Сделать выход (окончание сессии вызовом session_destroy()
     //при нажатии на кнопку Выход).
-    include("OutLog.php");
+    include("Logout.php");
     if (isset($_POST['Logout']))
     {
       session_destroy();
