@@ -10,10 +10,6 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-      padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #e3df90;
-    border-radius: 4px;
 }
 
 .form form{
@@ -23,6 +19,18 @@ body{
 .form span{
     font-size: 26px;
     color:rgb(211, 192, 170);
+}
+
+input[name="fio"],
+input[name="field-tel"],
+input[name="field-email"],
+input[name="field-date"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #e3df90;
+  border-radius: 4px;
 }
 
 .button{
