@@ -6,17 +6,13 @@ body{
     color: rgb(211, 192, 170);
 }
 
-/* .form{
+.form{
     width: 100%;
     display: flex;
     justify-content: center;
-} */
-input[name="fio"],
-input[name="field-tel"],
-input[name="field-email"],
-input[name="field-date"],
-textarea,
-.form{
+}
+input,
+textarea{
   width: 100%;
   padding: 8px;
   margin-bottom: 15px;
@@ -53,14 +49,14 @@ background-color:#68af4c;
     background-color:#beb08bdf;
 }
 
-input{
+/* input{
     background-color: #f2f1f0;
     border: none;
     height: 25px;
     color:#272625;
     font-size: 20px;
     margin-bottom: 20px;
-}
+} */
 ::placeholder{
     color:rgb(204, 192, 176)
 }
