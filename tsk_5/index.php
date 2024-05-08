@@ -98,7 +98,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     $userLogin = $_SESSION['login'];
 
   $user = 'u67329';
-  $pass = '6746979';
+  $pass = '7646979';
   $db = new PDO('mysql:host=localhost;dbname=u67329', $user, $pass,
   [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
@@ -279,9 +279,10 @@ else {
     setcookie('bio_error', '', 100000);
     setcookie('check_error', '', 100000);
   }
-  $user = 'u67344'; // Заменить на ваш логин uXXXXX
-  $pass = '7915464'; // Заменить на пароль, такой же, как от SSH
-  $db = new PDO('mysql:host=localhost;dbname=u67344', $user, $pass,
+  
+  $user = 'u67329'; // Заменить на ваш логин uXXXXX
+  $pass = '7646979'; // Заменить на пароль, такой же, как от SSH
+  $db = new PDO('mysql:host=localhost;dbname=u67329', $user, $pass,
   [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
   // Проверяем меняются ли ранее сохраненные данные или отправляются новые.
   if (!empty($_COOKIE[session_name()]) &&
