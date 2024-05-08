@@ -50,7 +50,7 @@ else {
   
   // TODO: Проверть есть ли такой логин и пароль в базе данных.
   $user = 'u67329';
-  $pass = '7646979';
+  $pass = '6746979';
   $db = new PDO('mysql:host=localhost;dbname=u67329', $user, $pass,
   [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
