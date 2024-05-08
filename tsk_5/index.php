@@ -280,8 +280,8 @@ else {
     setcookie('check_error', '', 100000);
   }
   
-  $user = 'u67329'; // Заменить на ваш логин uXXXXX
-  $pass = '7646979'; // Заменить на пароль, такой же, как от SSH
+  $user = 'u67329'; 
+  $pass = '6746979'; 
   $db = new PDO('mysql:host=localhost;dbname=u67329', $user, $pass,
   [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
   // Проверяем меняются ли ранее сохраненные данные или отправляются новые.
