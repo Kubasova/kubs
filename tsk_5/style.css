@@ -21,6 +21,18 @@ body{
     color:rgb(211, 192, 170);
 }
 
+  input[name="fio"],
+  input[name="field-tel"],
+  input[name="field-email"],
+  input[name="field-date"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #e3df90;
+    border-radius: 4px;
+  }
+
 .button{
     width: 100px;
     height: 40px;
