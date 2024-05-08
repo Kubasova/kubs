@@ -4,80 +4,56 @@ body{
     font-size: 20px;
     background-color: #4f4322df;
     color: rgb(211, 192, 170);
-}
-
-.form{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-input,
-textarea{
-  width: 50%;
-  padding: 8px;
-  margin-bottom: 15px;
-  border: 1px solid #e3df90;
-  border-radius: 4px;
-}
-.form form{
-    margin-top: 10px;
-}
-
-.form span{
-    font-size: 26px;
-    color:rgb(211, 192, 170);
-}
-
-
-
-.button{
-    width: 100px;
-    height: 40px;
-    background-color:#d5cebe;
-    border: #4f4322df solid 1px;
-    border-radius: 5px;
-    color:#4f4322df;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.button:hover{
-background-color:#68af4c;
-}
-
-.button:active{
-    background-color:#beb08bdf;
-}
-
-/* input{
-    background-color: #f2f1f0;
-    border: none;
-    height: 25px;
-    color:#272625;
-    font-size: 20px;
-    margin-bottom: 20px;
-} */
-::placeholder{
-    color:rgb(204, 192, 176)
-}
-
-select{
-    width: 30%;
-    font-size: 16px;
-}
-
-option{
-    padding: 5px;
-}
-
-textarea{
-    padding: 10px;
-    width: 50%;
-    font-size: 16px;
-    border: 1px solid #ccc;
-}
-
-.checkbox{
-    width: 20px;
-    height: 20px;
-}
+  }
+  
+  .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    /* Стили для текстовых полей */
+    input[name="fio"],
+    input[name="field-tel"],
+    input[name="field-email"],
+    input[name="field-date"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #e3df90;
+      border-radius: 4px;
+    }
+    
+    /* Стили для радиокнопок */
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+    
+    /* Стили для множественного выбора */
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #e3df90;
+      border-radius: 4px;
+    }
+    
+    /* Стили для чекбокса */
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+    
+    /* Стили для кнопки */
+    input[type="submit"],
+    button {
+      background-color: #4CAF50;
+      color: rgb(205, 205, 205);
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
