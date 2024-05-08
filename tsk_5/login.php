@@ -50,7 +50,7 @@ else {
   
   // TODO: Проверть есть ли такой логин и пароль в базе данных.
   $user = 'u67329';
-  $pass = '6746979';
+  $pass = '7646979';
   $db = new PDO('mysql:host=localhost;dbname=u67329', $user, $pass,
   [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
@@ -70,9 +70,11 @@ else {
     print('Error : ' . $e->getMessage());
     exit();
   }
-      // Выдать сообщение об ошибках.
+  
+
   if($passDB == "" || $passDB != $shapass)
   {
+    // Выдать сообщение об ошибках.
     print("No such login or incorrect password");
   }
   else{
@@ -84,8 +86,11 @@ else {
     // Делаем перенаправление.
     header('Location: ./');
   }
+  // Записываем ID пользователя.
+  //$_SESSION['uid'] = 123;
   
-}// Записываем ID пользователя.
+}
+
 function GenerateRandomString($length = 8) {
   $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
   $str = '';
