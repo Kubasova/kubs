@@ -15,7 +15,7 @@
       <label>
         ФИО:
         <br/>
-        <input name="fio" type="name" value="Иванов Иван Иванович">
+        <input name="fio" type="name" placeholder="Иванов Иван Иванович">
       </label>
       <br>
       <label>
@@ -53,7 +53,7 @@
       </label><br>
       <label>
         Ваша биография:<br>
-        <textarea name="bio" cols="90" rows="10">Давным-давно, в далекой-далекой галактике... </textarea>
+        <textarea name="bio" cols="90" rows="10" placeholder="..."> </textarea>
       </label><br>
       <br>
       <label><input type="checkbox" class="checkbox" name="check-1">
