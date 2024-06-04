@@ -116,7 +116,7 @@ body{
   color: rgb(211, 192, 170);
 }
 
-/*
+
 .navbar {
   background: #1a1b23;
   overflow: hidden;
@@ -162,40 +162,6 @@ body{
   color: #ddd;
   transition: color 0.2s linear, background-color 0.2s linear;
 }
-*/
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  padding: 1em;
-}
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.navbar li {
-  margin-right: 1em;
-}
-
-.navbar button,
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.2em;
-  transition: color 0.3s ease;
-}
-
-.navbar button:hover,
-.navbar a:hover {
-  color: #ccc;
-}
-
 
 .table__category td{
   max-width: 550px;
