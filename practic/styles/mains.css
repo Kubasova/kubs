@@ -29,17 +29,19 @@
 }
 
 .edit-btn {
-  margin-right: 5px;
-  border: 1px solid #50b04a;
-  border-radius: 10px;
-  padding: 13px 32px;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 100%;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.25em;
+  background-color: #69ff332f;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
   text-align: center;
-  color: #50b04a;
+  text-decoration: none;
   cursor: pointer;
-  background-color: inherit;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
 }
 
 .edit-btn:hover {
@@ -51,28 +53,26 @@
 }
 
 .delete-btn {
-  margin-right: 5px;
-  border: 1px solid crimson;
-  border-radius: 10px;
-  padding: 13px 32px;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 100%;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.25em;
+  background-color: #ff3333;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
   text-align: center;
-  color: crimson;
+  text-decoration: none;
   cursor: pointer;
-  background-color: inherit;
+  transition: background-color 0.3s ease;
 }
 
 .delete-btn:hover {
-  filter: drop-shadow(0 0 0.95rem crimson);
-  transition: filter 0.2s linear;
+  background-color: #ee2222;
 }
 
 .delete-btn:active {
-  color: inherit;
-  background-color: crimson;
-  transition: color 0.3s linear, background-color 0.3s linear;
+  background-color: #cc1111;
 }
 
 .add-btn {
