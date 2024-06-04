@@ -105,7 +105,7 @@
     </tbody>
 </table>
 
-<table class="data-table" id="Areas">
+<table class="data-table" id="areas">
     <thead>
         <tr>
             <th>Название шоу</th>
@@ -115,13 +115,13 @@
         </tr>
     </thead>
     <tbody>
-        <?php foreach ($Areas as $Area) : ?>
+        <?php foreach ($areas as $area) : ?>
         <tr class="item_row">
-            <td><?php echo $Area['name']; ?></td>
-            <td><?php echo $Area['setup_date']; ?></td>
-            <td><?php echo $Area['close_date']; ?></td>
-            <td><?php echo $Area['location']; ?></td>
-            <input name="venue_id" value="<?php echo $Area['venue_id']; ?>" type="hidden" />
+            <td><?php echo $area['name']; ?></td>
+            <td><?php echo $area['setup_date']; ?></td>
+            <td><?php echo $area['close_date']; ?></td>
+            <td><?php echo $area['location']; ?></td>
+            <input name="venue_id" value="<?php echo $area['venue_id']; ?>" type="hidden" />
         </tr>
         <?php endforeach; ?>
     </tbody>
