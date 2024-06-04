@@ -63,7 +63,7 @@
           } 
 
           if(isset($_POST["UpdateCategory"])){
-            UpdateArtistCategory($db, $_POST["role_id"],  $_POST["role_name"], $_POST["genre"], $_POST["salary"], $_POST["performance"]);
+            UpdateArtistCategory($db, $_POST["role_id"], $_POST["role_name"], $_POST["genre"], $_POST["salary"], $_POST["performance"]);
             header('Location: ./mainData.php');
             exit();
           }           
