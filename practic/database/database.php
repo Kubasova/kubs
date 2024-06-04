@@ -206,7 +206,7 @@ function GetOutputLogById($db, $id)
     $sth->execute(["id" => $id]);
     while ($row = $sth->fetch()) {
         $result['perf_id'] = $row['perf_id'];
-        $result['artist_name'] = $row['artist_name'];
+        $result['artist_id'] = $row['artist_id'];
         $result['venue_id'] = $row['venue_id'];
         $result['date_beg'] = $row['date_beg'];
         $result['date_end'] = $row['date_end'];
