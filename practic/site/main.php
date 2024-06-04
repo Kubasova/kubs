@@ -90,9 +90,9 @@
     <tbody>
         <?php foreach ($artists as $artist) : ?>
         <tr class="item_row">
-            <td><?php echo $artist['role_name']; ?></td>
             <td><?php echo $artist['first_name']; ?></td>
             <td><?php echo $artist['last_name']; ?></td>
+            <td><?php echo $artist['role_name']; ?></td>
             <td>
                 <form action="" method="post">
                     <button class="edit-btn" name="EditArtist" type="submit">Редактировать</button>
