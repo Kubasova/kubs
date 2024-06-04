@@ -20,28 +20,28 @@
                     <input type="date" id="date_end"  value="<?php echo $currentLog['date_end']; ?>"name="date_end">
                 </div>
                 <fieldset>
-            <legend>Выберите артиста:</legend>
-            <?php foreach ($artists as $artist) :?>
-            <div>
-                <label for="<?php echo $artist["first_name"];?>">
-                <input type="radio" name="artist_id" value="<?php echo $artist["artist_id"];?>" />
-                <?php echo $artist["first_name"];?>
-                </label>
-            </div>
-            <?php endforeach;?>
-            </fieldset>
-            <fieldset>
-            <legend>Выберите Шоу:</legend>
-            <?php foreach ($areas as $area) :?>
-            <div>
-                <label for="<?php echo $area["name"];?>">
-                <input type="radio" name="venue_id" value="<?php echo $area["venue_id"];?>" />
-                <?php echo $area["name"];?>
-                </label>
-            </div>
-            <?php endforeach;?>
-            </fieldset>
-            <input type="text" id="perf_id" value="<?php echo $currentLog["perf_id"];?>" name="perf_id" hidden>
+                    <legend>Выберите артиста:</legend>
+                    <?php foreach ($artists as $artist) :?>
+                        <div>
+                            <label for="<?php echo $artist["first_name"];?>">
+                            <input type="radio" name="artist_id" value="<?php echo $artist["artist_id"];?>" />
+                            <?php echo $artist["first_name"];?>
+                            </label>
+                        </div>
+                    <?php endforeach;?>
+                </fieldset>
+                <fieldset>
+                    <legend>Выберите Шоу:</legend>
+                    <?php foreach ($areas as $area) :?>
+                        <div>
+                            <label for="<?php echo $area["name"];?>">
+                            <input type="radio" name="venue_id" value="<?php echo $area["venue_id"];?>" />
+                            <?php echo $area["name"];?>
+                            </label>
+                        </div>
+                    <?php endforeach;?>
+                </fieldset>
+                <input type="text" id="perf_id" value="<?php echo $currentLog["perf_id"];?>" name="perf_id" hidden>
                 <input type="submit" value="Применить" name="UpdateOutputlogs">
             </form>
         </div>
