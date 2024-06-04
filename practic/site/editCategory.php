@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="block">
-            <h2>Добавить категорию</h2>
+            <h2>Изменить роль актера</h2>
             <form action="" method="POST">
                 <div class="form-group">
                     <label for="role_name">Название роли:</label>
