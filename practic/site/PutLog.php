@@ -34,12 +34,12 @@
                     <?php endforeach;?>
                 </fieldset>
                 <div class="form-group">
-                    <label for="purchase_date">Начиная с:</label>
-                    <input type="date" id="purchase_date" name="purchase_date">
+                    <label for="date_beg">Начиная с:</label>
+                    <input type="date" id="date_beg" name="date_beg">
                 </div>
                 <div class="form-group">
-                    <label for="purchase_date">До:</label>
-                    <input type="date" id="purchase_date" name="purchase_date">
+                    <label for="date_end">До:</label>
+                    <input type="date" id="date_end" name="date_end">
                 </div>
                 <input type="submit" value="Добавить" name="PutLog">
             </form>
