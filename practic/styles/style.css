@@ -60,30 +60,28 @@ input[type="radio"] {
 }
 
 input[type="submit"] {
-  border-radius: 10px;
-  padding: 10px 10px;
-  width: 342px;
-  height: 42px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.25em;
+  background-color: #ccc;
+  color: #333;
+  font-size: 1em;
+  font-weight: bold;
   text-align: center;
-  color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  background: linear-gradient(225deg, #18c8ff 0%, #933ffe 100%);
   text-decoration: none;
-  margin-left: 100px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 input[type="submit"]:hover {
-  filter: drop-shadow(0 0 0.75rem #933ffe);
-  transition: filter 0.2s linear;
+  background-color: #bbb;
 }
 
 input[type="submit"]:active {
-  background: linear-gradient(225deg, #933ffe 100%, #18c8ff 0%);
-  transition: background 0.3s linear;
+  background-color: #aaa;
 }
 
 #products {
