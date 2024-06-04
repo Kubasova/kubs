@@ -21,11 +21,11 @@
                 </div>
                 <fieldset>
                 <legend>Выберите роль:</legend>
-                <?php foreach ($artists as $art) :?>
+                <?php foreach ($categories as $category) :?>
                 <div>
-                    <label for="<?php echo $art["role_name"];?>">
-                    <input type="radio" name="role_id" value="<?php echo $art["role_id"];?>" />
-                    <?php echo $art["role_name"];?>
+                    <label for="<?php echo $category["role_name"];?>">
+                    <input type="radio" name="role_id" value="<?php echo $category["role_id"];?>" />
+                    <?php echo $category["role_name"];?>
                     </label>
                     </div>
                 <?php endforeach;?>
