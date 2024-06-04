@@ -9,8 +9,8 @@
     if ($_SERVER['REQUEST_METHOD'] == 'GET') {
         $artists = array();
         $artists = GetArtists($db);
-        $categories = array();
-        $categories = GetArtistCategories($db);
+        $areas = array();
+        $areas = GetListAreas($db);
         include("../site/PutLog.php");
       }
       
