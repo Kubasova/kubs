@@ -79,28 +79,25 @@
   position: absolute;
   right: 25px;
   top: 10%;
-  border-radius: 10px;
-  padding: 10px 20px;
+  border-radius: 0.25em;
+  padding: 0.5em 1em;
   width: 90px;
   height: 20px;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 18px;
   line-height: 100%;
   text-align: center;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  background: linear-gradient(225deg, #18c8ff 0%, #933ffe 100%);
+  background: #ffb1337c;
   text-decoration: none;
 }
 
 .add-btn:hover {
-  filter: drop-shadow(0 0 0.75rem #933ffe);
-  transition: filter 0.2s linear;
+  background-color: #cbc24298;
 }
 
 .add-btn:active {
-  background: linear-gradient(225deg, #933ffe 100%, #18c8ff 0%);
-  transition: background 0.3s linear;
+  background-color: #5e591898;
 }
 
 .PutLog-btn{
@@ -116,12 +113,11 @@ body{
   color: rgb(211, 192, 170);
 }
 
-
 .navbar {
-  background: #1a1b23;
+  background: #2a2124;
   overflow: hidden;
   margin-bottom: 30px;
-  color: #898ca9;
+  color: #c5aaaa;
   height: 50px;
   position: relative;
   border-radius: 25px;
@@ -143,24 +139,21 @@ body{
   text-align: center;
   padding: 12px 16px;
   text-decoration: none;
-  background: #1a1b23;
-  color: #898ca9;
+  background: #2a2124;
+  color: #fff;
   border: none;
   font-size: 24px;
   cursor: pointer;
 }
 
 .navbar li button:hover {
-  background-color: #ddd;
+  background-color: #c5aaaa;
   color: #1a1b23;
-  filter: drop-shadow(0 0 0.75rem #ddd);
-  transition: color 0.3s linear, background-color 0.3s linear, filter 0.3s linear;
 }
 
 .navbar li button:active {
-  background-color: #000;
-  color: #ddd;
-  transition: color 0.2s linear, background-color 0.2s linear;
+  background-color: #171313;
+  color: #fff;
 }
 
 .table__category td{
