@@ -21,7 +21,7 @@
                 </div>
                 <div class="form-group">
                     <label for="salary">ЗП:</label>
-                    <input type="number" id="cost" name="cost" step="100.00" required>
+                    <input type="number" id="salary" name="salary" step="100.00" required>
                 </div>
                 <div class="form-group">
                     <label for="performance">Описание:</label>
