@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="block">
-            <h2>Добавить материально ответственное лицо</h2>
+            <h2>Изменить актера</h2>
             <form action="" method="POST">
                 <div class="form-group">
                     <label for="first_name">Имя:</label>
