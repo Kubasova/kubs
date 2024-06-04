@@ -31,7 +31,7 @@
                 <?php endforeach;?>
                 </fieldset>
                 <input type="text" id="artist_id" value="<?php echo $currentArtist["artist_id"];?>" name="artist_id" hidden>
-                <input type="submit" value="Редактировать ответственное лицо" name="UpdateArtist">
+                <input type="submit" value="Изменить" name="UpdateArtist">
             </form>
         </div>
     </div>
