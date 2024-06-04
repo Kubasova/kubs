@@ -39,6 +39,7 @@
 
         if(isset($_POST["EditArtist"])){
             $currentArtist = array();
+            $categories = GetArtistCategories($db);
             $currentArtist = GetArtistById($db, $_POST["artist_id"]);
             include('../site/editArtist.php');
           } 
@@ -56,7 +57,7 @@
           } 
 
           if(isset($_POST["UpdateArtist"])){
-            UpdateArtist($db, $_POST["artist_id"],  $_POST["role_id"], $_POST["first_name"], $_POST["last_name"]);
+            UpdateArtist($db, $_POST["artist_id"], $_POST["role_id"], $_POST["first_name"], $_POST["last_name"]);
             header('Location: ./mainData.php');
             exit();
           } 
