@@ -32,7 +32,7 @@
         if(isset($_POST["EditOutputLog"])){
             $currentLog = array();
             $artists = GetArtists($db);
-            $categories = GetArtistCategories($db);
+            $areas = GetListAreas($db);
             $currentLog = GetOutputLogById($db, $_POST["perf_id"]);
             include('../site/editOutputLog.php');
           } 
