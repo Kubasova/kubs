@@ -57,7 +57,7 @@
   padding: 0.5em 1em;
   border: none;
   border-radius: 0.25em;
-  background-color: #ff3333;
+  background-color: #ff33334c;
   color: #fff;
   font-size: 1em;
   font-weight: bold;
@@ -68,11 +68,11 @@
 }
 
 .delete-btn:hover {
-  background-color: #ee2222;
+  background-color: #ee222222;
 }
 
 .delete-btn:active {
-  background-color: #cc1111;
+  background-color: #ee222233;
 }
 
 .add-btn {
