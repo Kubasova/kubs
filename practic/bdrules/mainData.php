@@ -33,7 +33,7 @@
             $currentLog = array();
             $artists = GetArtists($db);
             $categories = GetArtistCategories($db);
-            $currentLog = GetOutputLogById($db, $_POST["asset_id"]);
+            $currentLog = GetOutputLogById($db, $_POST["perf_id"]);
             include('../site/editOutputLog.php');
           } 
 
