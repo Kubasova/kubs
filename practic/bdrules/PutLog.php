@@ -16,8 +16,7 @@
       
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if(isset($_POST["PutLog"])){
-
-          SaveAsset($db);
+          SaveOutputLog($db);
           header('Location: ./mainData.php');
           exit();
         }
