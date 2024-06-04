@@ -13,11 +13,11 @@
             <form action="" method="POST">
                 <div class="form-group">
                     <label for="date_beg">Начиная с:</label>
-                    <input type="date" id="purchase_date"  value="<?php echo $currentLog['purchase_date']; ?>"name="purchase_date">
+                    <input type="date" id="date_beg"  value="<?php echo $currentLog['date_beg']; ?>"name="date_beg">
                 </div>
                 <div class="form-group">
                     <label for="date_end">До:</label>
-                    <input type="date" id="purchase_date"  value="<?php echo $currentLog['purchase_date']; ?>"name="purchase_date">
+                    <input type="date" id="date_end"  value="<?php echo $currentLog['date_end']; ?>"name="date_end">
                 </div>
                 <fieldset>
             <legend>Выберите артиста:</legend>
