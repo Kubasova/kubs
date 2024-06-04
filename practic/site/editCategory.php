@@ -21,7 +21,7 @@
                 </div>
                 <div class="form-group">
                     <label for="salary">ЗП:</label>
-                    <input type="text" id="salary" value="<?php echo $currentCategory['salary']; ?>" name="salary" step="0.01" required>
+                    <input type="text" id="salary" value="<?php echo $currentCategory['salary']; ?>" name="salary" step="100.00" required>
                 </div>
                 <div class="form-group">
                     <label for="performance">Описание представления:</label>
