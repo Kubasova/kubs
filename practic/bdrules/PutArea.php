@@ -7,8 +7,6 @@
     [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
     if ($_SERVER['REQUEST_METHOD'] == 'GET') {
-        $logs = array();
-        $logs = GetOutputLogs($db);
         include("../site/PutArea.php");
       }
       
