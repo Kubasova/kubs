@@ -28,7 +28,7 @@
                     <textarea id="performance" name="performance" required><?php echo $currentCategory["performance"];?></textarea>
                 </div>
                 <input type="text" id="role_id" value="<?php echo $currentCategory["role_id"];?>" name="role_id" hidden>
-                <input type="submit" value="Редактировать роль" name="UpdateCategory">
+                <input type="submit" value="Изменить" name="UpdateCategory">
             </form>
         </div>
     </div>
