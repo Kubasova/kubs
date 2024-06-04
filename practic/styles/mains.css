@@ -30,27 +30,24 @@
 
 .edit-btn {
   margin-right: 5px;
-  border: 1px solid #0dbb7c;
+  border: 1px solid #50b04a;
   border-radius: 10px;
   padding: 13px 32px;
   font-weight: 600;
   font-size: 14px;
   line-height: 100%;
   text-align: center;
-  color: #0dbb7c;
+  color: #50b04a;
   cursor: pointer;
   background-color: inherit;
 }
 
 .edit-btn:hover {
-  filter: drop-shadow(0 0 0.95rem #0dbb7c);
-  transition: filter 0.2s linear;
+  background-color: #4ca25a7d;
 }
 
 .edit-btn:active {
-  color: inherit;
-  background-color: #0dbb7c;
-  transition: color 0.3s linear, background-color 0.3s linear;
+  background-color: #4ca25a7d;
 }
 
 .delete-btn {
